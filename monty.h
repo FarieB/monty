@@ -42,6 +42,9 @@ void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
+instruction_t get_instruction(char *line, unsigned int line_number);
+void (*get_opcode_function(char *opcode))(stack_t **, unsigned int);
+void free_stack(stack_t **stack);
 
 #endif /* MONTY_H */
 
