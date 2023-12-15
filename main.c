@@ -2,13 +2,11 @@
 
 int main(int argc, char *argv[])
 {
-/* ... (rest of the code) */
 
 (void)argc;
 (void)argv;
 
-return 0;  /* Use 0 instead of EXIT_SUCCESS */
+return (0);
 
-/* ... (rest of the code) */
 }
 
