@@ -18,7 +18,6 @@ instruction_t instructions[] = {
 {"add", add},
 {"nop", nop},
 {NULL, NULL},
-{"add", add},
 };
 
 int i = 0;

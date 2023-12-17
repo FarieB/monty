@@ -1,15 +1,6 @@
-#include "monty.h"
-
-/**
-* push - pushes an element to the stack
-* @stack: pointer to the head of the stack
-* @value: value to be pushed
-*/
-
 void push(stack_t **stack, int value)
 {
 stack_t *new_node = malloc(sizeof(stack_t));
-
 if (!new_node)
 {
 fprintf(stderr, "Error: malloc failed\n");
