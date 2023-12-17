@@ -53,6 +53,5 @@ free_stack(&stack);
 free(line);
 fclose(file);
 
-return EXIT_SUCCESS;
+return (EXIT_SUCCESS);
 }
-
