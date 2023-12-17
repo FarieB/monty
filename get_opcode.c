@@ -10,7 +10,7 @@
 void (*get_opcode_function(char *opcode))(stack_t **, unsigned int)
 {
 instruction_t instructions[] = {
-{"push", push},
+{"push", (void (*)(stack_t **, unsigned int))push},
 {"pall", pall},
 {"pint", pint},
 {"pop", pop},
